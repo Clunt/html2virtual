@@ -161,4 +161,5 @@ VNode.prototype.append = function(str) {
 // TODO 𠮷 &gt; &lt;
 var html = '<div>HTML PARSER TO VIRTUAL DOM</div><p>By Clunt</p>';
 var virtualDOM = new VirtualDOM(html);
-console.log(virtualDOM)
+// console.log(virtualDOM)
+console.log(JSON.stringify(virtualDOM))
